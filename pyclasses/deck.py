@@ -9,21 +9,21 @@ class deck:
     def __init__(self):
         self.deck = []
         for x in range(1,11):
-            self.deck.append(card( x, '♢'))
+            self.deck.append(card( x, ' of spades'))
         for x2 in range(1,4):
-            self.deck.append(card( 10, '♢'))
+            self.deck.append(card( 10, ' of spades'))
         for y in range(1,11):
-            self.deck.append(card(y, '♠' ))
+            self.deck.append(card(y, ' of clubs' ))
         for y2 in range(1,4):
-            self.deck.append(card( 10, '♠'))
+            self.deck.append(card( 10, ' of clubs'))
         for z in range(1,11):
-            self.deck.append(card(z, '♡' ))
+            self.deck.append(card(z, ' of diamonds' ))
         for z2 in range(1,4):
-            self.deck.append(card( 10, '♡'))
+            self.deck.append(card( 10, ' of diamonds'))
         for xx in range(1,11):
-            self.deck.append(card( xx,'♣'))
+            self.deck.append(card( xx,' of hearts')) 
         for xx2 in range(1,4):
-            self.deck.append(card( 10, '♣'))
+            self.deck.append(card( 10, ' of hearts'))
     def toString(self):
         for x in self.deck:
             print(x.toString())
