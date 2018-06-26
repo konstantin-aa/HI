@@ -74,4 +74,6 @@ while feed != 'quit':
             print('DEALER WINS!')
             show()
             
+print('BYE!!')
+            
 
