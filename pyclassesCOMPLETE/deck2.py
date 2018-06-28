@@ -23,6 +23,8 @@ class deck:
         deck2 = self.deck
         self.deck = []
         for x in range(len(deck2)):
-            self.deck.append(deck2[random.randint(0,len(deck2)-1)])
+            ha = random.randint(0,len(deck2)-1)
+            self.deck.append(deck2[ha])
+            del deck2[ha]
     def getdeck(self):
         return self.deck

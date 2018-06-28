@@ -11,6 +11,6 @@ class card:
         return self.suit
     def getnum(self):
         return self.number
-    def toString(self):
+    def __str__(self):
         return  str(self.number) + ''+ str(self.suit)
     
