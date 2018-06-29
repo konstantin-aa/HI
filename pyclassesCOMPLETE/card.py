@@ -13,4 +13,6 @@ class card:
         return self.number
     def __str__(self):
         return  str(self.number) + ''+ str(self.suit)
+    def __repr__(self):
+        return self.__str__()
     
